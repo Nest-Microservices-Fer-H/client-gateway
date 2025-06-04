@@ -18,6 +18,9 @@ async function bootstrap() {
     }),
   );
 
+  console.log('Hola, mundo!');
+  
+
   await app.listen(envs.port);
   logger.log(`Gateway running on port: ${envs.port}`);
 }
